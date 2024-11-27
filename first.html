@@ -1,27 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <mete name="viewport"content="width=device-width, initial-scale=1.0">
-        <title>My web project</title>
-        <link rel="stylesheet"href="style.css">
-    </head>
-    <body>
-        <h1>Hello, Web Development!</h1>
-        <button onclick="showMessage()">Click Me</button>
-        <script src="script.js"></script>
-        </body>
-        </html>
-<!DOCTYPE html>
-<html>
-<head>
-<title>Hello World!</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Semantics Practice</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #f4f4f4;
+      padding: 1em;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      color: #fff;
+      padding: 0.5em;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 0.5em;
+      text-decoration: none;
+    }
+    main {
+      padding: 1em;
+    }
+    section {
+      margin-bottom: 1em;
+    }
+    article {
+      background: #e9ecef;
+      padding: 1em;
+      border-radius: 5px;
+    }
+    footer {
+      font-size: 0.9em;
+    }
+  </style>
 </head>
 <body>
+  <header>
+    <h1>Welcome to My Practice Page</h1>
+    <p>Learn and master semantic HTML</p>
+  </header>
+  
+  <nav>
+    <a href="#about">About</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>This is a section where you introduce yourself. Use this space to share something interesting about you!</p>
+    </section>
+    
+    <section id="blog">
+      <h2>Recent Blog Posts</h2>
+      <article>
+        <h3>Post Title 1</h3>
+        <p>This is a summary of the first blog post. Practice creating an article element for each post!</p>
+      </article>
+      <article>
+        <h3>Post Title 2</h3>
+        <p>This is a summary of the second blog post. Add your own content to make it unique!</p>
+      </article>
+    </section>
+    
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>If you’d like to get in touch, you can find me on <a href="https://example.com">social media</a>.</p>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2024 My Practice Page. All rights reserved.</p>
+  </footer>
+</body>
+</html>
 
-    <h1>Hello world!</h1>
-    <p>This is the first file in my new Git Repo.</p>
-    <pre>This is the first file in my new Git Repo.</pre>
-    </body>
-    </html>
     
